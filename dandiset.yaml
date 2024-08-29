@@ -6,9 +6,43 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 54044762480
+  numberOfFiles: 135
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Position
+  - OpticalChannel
+  - ImagingPlane
+  - SpatialSeries
+  - BehavioralEvents
+  - BehavioralEpochs
+  - BehavioralTimeSeries
+  - PlaneSegmentation
+  - TwoPhotonSeries
+  - ProcessingModule
 citation: Heiser, Hendrik (2024) Brain-wide microstrokes affect the stability of memory
   circuits in the hippocampus (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001184/draft
 contributor:
