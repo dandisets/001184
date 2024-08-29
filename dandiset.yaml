@@ -45,8 +45,8 @@ assetsSummary:
   - TwoPhotonSeries
   - ProcessingModule
 citation: Heiser, Hendrik; Wahl, Anna-Sophia (2024) Brain-wide microstrokes affect
-  the stability of memory circuits in the hippocampus (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/001184/draft
+  the stability of memory circuits in the hippocampus (Version 0.240829.1458) [Data
+  set]. DANDI archive. https://doi.org/10.48324/dandi.001184/0.240829.1458
 contributor:
 - affiliation: []
   email: hendrik-heiser@gmx.de
@@ -79,8 +79,9 @@ dateCreated: '2024-08-29T09:28:28.816096+00:00'
 datePublished: '2024-08-29T14:58:40.362743+00:00'
 description: Data for the publication "Brain-wide microstrokes affect the stability
   of memory circuits in the hippocampus".
+doi: 10.48324/dandi.001184/0.240829.1458
 ethicsApproval: []
-id: DANDI:001184/draft
+id: DANDI:001184/0.240829.1458
 identifier: DANDI:001184
 keywords:
 - two-photon imaging
@@ -93,7 +94,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001184/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001184/0.240829.1458/assets.yaml
 name: Brain-wide microstrokes affect the stability of memory circuits in the hippocampus
 protocol: []
 publishedBy:
@@ -113,6 +114,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001184/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001184/0.240829.1458
+version: 0.240829.1458
 wasGeneratedBy: []
